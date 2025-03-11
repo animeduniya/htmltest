@@ -3,7 +3,7 @@ const searchInput = document.getElementById('search');
 const animeList = document.getElementById('animeList');
 
 // Replace with the actual API URL
-const API_BASE_URL = "https://justalk-api.com";
+const API_BASE_URL = "https://justalk-api.com/";
 
 searchButton.addEventListener('click', async () => {
     const query = searchInput.value.trim();
